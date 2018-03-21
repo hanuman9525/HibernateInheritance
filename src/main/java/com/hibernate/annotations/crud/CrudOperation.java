@@ -11,4 +11,5 @@ public interface CrudOperation {
 	public Student getStudent(int s);
 
 	public List<Student> listStudent();
+	public void deleteStudent(int id);
 }
